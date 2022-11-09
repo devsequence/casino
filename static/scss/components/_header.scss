@@ -1,0 +1,40 @@
+.header{
+  background-color: #07091d;
+  width: 100%;
+  &-top{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  &-bg{
+    position: absolute;
+    width: 100%;
+  }
+  .container{
+    max-width: 112.4rem;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+  }
+  &-list{
+    ul{
+      display: flex;
+      justify-content: space-between;
+    }
+    img{
+      width: 1.6rem;
+      height: 1.6rem;
+      display: inline-block;
+      margin-right: .8rem;
+    }
+    a{
+      display: flex;
+      align-items: center;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.4rem;
+      padding: 1.5rem 1.2rem;
+      color: #cdd0f3;
+    }
+  }
+}
